@@ -1,0 +1,3 @@
+Use SDL to actively render to the desktop background
+
+Documentation coming soon...
