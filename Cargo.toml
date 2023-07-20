@@ -6,8 +6,8 @@ authors = ["SpencerLS"]
 description = "Use SDL to actively render to the desktop background"
 repository = "https://github.com/Spencer1O1/sdl2-wallpaper/"
 readme = "README.md"
-keywords = []
-categories = []
+keywords = ["graphics", "rendering", "sdl", "windows"]
+categories = ["graphics", "rendering", "os"]
 license = "MIT OR Apache-2.0"
 
 [build-dependencies]
