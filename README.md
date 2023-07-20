@@ -4,7 +4,9 @@ Use SDL2 to actively render to the desktop background. Use simple functions to g
 
 ## Note
 
-As of now, only Windows is supported. It has only been developed with Windows 10, so that is the only OS that is expected to work.
+As of now, only Windows is supported. sdl2_wallpaper has only been developed with Windows 10, so that is the only OS that is expected to work.
+I also haven't seen if the MinGW SDL2 development libraries work with this yet.
+For setting up Rust-SDL2 I've used both cargo-vcpkg and the "bundled" feature successfully.
 
 ## Installation
 
