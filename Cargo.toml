@@ -11,17 +11,7 @@ categories = ["graphics", "rendering", "os"]
 license = "MIT OR Apache-2.0"
 
 [build-dependencies]
-cc = { git = "https://github.com/rust-lang/cc-rs.git", rev = "163eb8e" }
+cc = "1.0.79"
 
-[dependencies.sdl2]
-version = "0.35.2"
-default-features = false
-features = ["static-link", "use-vcpkg"]
-
-[package.metadata.vcpkg]
-dependencies = ["sdl2"]
-git = "https://github.com/microsoft/vcpkg"
-rev = "f6a5d4e"
-
-[package.metadata.vcpkg.target]
-x86_64-pc-windows-msvc = { triplet = "x64-windows-static-md" }
+[dependencies]
+sdl2 = "0.35.2"
